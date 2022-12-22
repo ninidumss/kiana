@@ -470,6 +470,7 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width: 180px;
+	height: 280px;
 	margin-top: 80px;
 	margin-left: 140px;
 }
@@ -484,24 +485,23 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px;
+  padding: 12px;
   text-align: center;
 }
 
-
+.about{
+	justify-content: space-between;
+  display: flex;
+}
 
 .aboutkiana{
 	margin: 150px;
 	width: 500px;
 	height: 400px;
-
 }
 
-
-
-
-
-
-
-
-
+.abouttext{
+	margin: 150px;
+	margin-right: 350px;
+	margin-top: 200px;
+}

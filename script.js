@@ -1,6 +1,3 @@
-"use strict"
-
-
 const carouselButtons = document.querySelectorAll(".carousel-btn");
 const carouselButtonLeft = document.querySelector(".btn-left");
 const carouselButtonRight = document.querySelector(".btn-right");
@@ -44,6 +41,3 @@ switchers.forEach(item => {
 		this.parentElement.classList.add('is-active')
 	})
 })
-
-
-
